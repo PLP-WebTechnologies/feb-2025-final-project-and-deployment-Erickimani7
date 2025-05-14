@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyShop - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">MyShop</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li> <!-- Link to About Section -->
+        <li><a href="#contact">Contact</a></li> <!-- Link to Contact Section -->
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to MyShop</h2>
+    <p>Your one-stop shop for quality products</p>
+    <p>We offer a wide range of products from fresh fruits to the latest gadgets, all at affordable prices.</p>
+  </section>
+
+  <section class="products" id="products">
+    <h2>Featured Products</h2>
+    <div class="product-list">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200" alt="Apples">
+        <h3>Apples</h3>
+        <p>Fresh and juicy red apples.</p>
+        <button onclick="addToCart('Apples')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200" alt="Bananas">
+        <h3>Bananas</h3>
+        <p>Rich in potassium and perfect for smoothies.</p>
+        <button onclick="addToCart('Bananas')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200" alt="Carrots">
+        <h3>Carrots</h3>
+        <p>Crunchy and packed with nutrients.</p>
+        <button onclick="addToCart('Carrots')">Add to Cart</button>
+      </div>
+      <!-- More product cards can be added here -->
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About MyShop</h2>
+    <p>Welcome to MyShop! We are an online store that offers a diverse range of products, including fresh produce, electronics, home goods, and more. Our goal is to provide customers with a seamless shopping experience, offering top-quality products at competitive prices.</p>
+    
+    <h3>Our Mission</h3>
+    <p>At MyShop, our mission is to make shopping convenient, reliable, and enjoyable for everyone. Whether you're looking for the freshest produce, the latest tech gadgets, or household essentials, we have something for everyone.</p>
+
+    <h3>Our Values</h3>
+    <ul>
+      <li><strong>Customer-Centric:</strong> We put our customers first, ensuring the best service and satisfaction.</li>
+      <li><strong>Quality:</strong> We only offer the highest-quality products that meet rigorous standards.</li>
+      <li><strong>Affordability:</strong> Our products come at competitive prices, providing great value for money.</li>
+      <li><strong>Convenience:</strong> Our online platform makes shopping simple and hassle-free, with fast delivery options.</li>
+    </ul>
+
+    <h3>Why Choose Us?</h3>
+    <p>When you shop with MyShop, you're not just purchasing products; you're gaining access to a world of quality, value, and convenience. Here are a few reasons why customers love MyShop:</p>
+    <ul>
+      <li><strong>Fast Shipping:</strong> We offer speedy delivery to ensure you get your orders as soon as possible.</li>
+      <li><strong>Easy Returns:</strong> If you're not satisfied with your purchase, we offer hassle-free returns and exchanges.</li>
+      <li><strong>Wide Range of Products:</strong> From electronics to groceries, our catalog is vast and constantly updated with new items.</li>
+      <li><strong>Secure Shopping:</strong> We use the latest encryption technology to keep your personal information safe.</li>
+    </ul>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, comments, or concerns, feel free to get in touch with us. We are here to help you with anything you need!</p>
+    
+    <h3>Contact Form</h3>
+    <form action="#" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+    
+    <h3>Our Location</h3>
+    <p>MyShop, 123 Market Street, Cityville, USA</p>
+
+    <h3>Customer Service</h3>
+    <p>For support, please reach out to us at <strong>support@myshop.com</strong> or call us at <strong>(123) 456-7890</strong>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MyShop. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
