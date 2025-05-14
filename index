@@ -28,22 +28,58 @@
     <h2>Featured Products</h2>
     <div class="product-list">
       <div class="product-card">
-        <img src="https://via.placeholder.com/300x200" alt="Apples">
+        <img src="apple-256268_640.jpg" alt="Apples">
         <h3>Apples</h3>
         <p>Fresh and juicy red apples.</p>
         <button onclick="addToCart('Apples')">Add to Cart</button>
       </div>
       <div class="product-card">
-        <img src="https://via.placeholder.com/300x200" alt="Bananas">
+        <img src="banana-325461_1280.jpg" alt="Bananas">
         <h3>Bananas</h3>
         <p>Rich in potassium and perfect for smoothies.</p>
         <button onclick="addToCart('Bananas')">Add to Cart</button>
       </div>
       <div class="product-card">
-        <img src="https://via.placeholder.com/300x200" alt="Carrots">
+        <img src="carrot-1694087_1280.jpg" alt="Carrots">
         <h3>Carrots</h3>
         <p>Crunchy and packed with nutrients.</p>
         <button onclick="addToCart('Carrots')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="grapes-5889697_1280.jpg" alt="grapes">
+        <h3>Carrots</h3>
+        <p>Crunchy and packed with nutrients.</p>
+        <button onclick="addToCart('grapes')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="cabbage-3722517_1280.jpg" alt="cabbage">
+        <h3>Carrots</h3>
+        <p>Crunchy and packed with nutrients.</p>
+        <button onclick="addToCart('cabbage')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="shoe-2498994_1280.jpg" alt="shoe">
+        <h3>Carrots</h3>
+        <p>limited edition.</p>
+        <button onclick="addToCart('shoes')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="iphone-6s-993199_1280.jpg" alt="phone">
+        <h3>Carrots</h3>
+        <p>latest and improved smartphone.</p>
+        <button onclick="addToCart('phone')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="books-1246674_1280.jpg" alt="book">
+        <h3>Carrots</h3>
+        <p>knowledge is power.</p>
+        <button onclick="addToCart('book')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="jeans-564089_1280.jpg" alt="jeans">
+        <h3>Carrots</h3>
+        <p>Crunchy and packed with nutrients.</p>
+        <button onclick="addToCart('jeans')">Add to Cart</button>
       </div>
       <!-- More product cards can be added here -->
     </div>
